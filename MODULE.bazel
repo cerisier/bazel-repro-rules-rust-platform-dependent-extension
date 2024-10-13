@@ -1,0 +1,6 @@
+bazel_dep(name = "rules_rust", version = "0.52.2")
+bazel_dep(name = "submodule", version = "")
+local_path_override(
+    module_name = "submodule",
+    path = "./submodule",
+)
